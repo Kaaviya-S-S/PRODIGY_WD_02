@@ -1,0 +1,82 @@
+.main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 35px;
+}
+
+.heading {
+    width: 100%;
+    background-color: gray;
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+    text-align: center;
+    font-size: large;
+}
+
+.heading h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.321),
+                 -2px -2px 4px rgba(255, 255, 255, 0.144);
+}
+
+.container{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-70px);
+    margin-top: 80px;
+}
+
+img {
+    padding-left: 175px;
+    width: 36%; 
+    height: 36%; 
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.stopwatch {
+    padding-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+#display {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.253),
+                -2px -2px 4px rgba(255, 255, 255, 0.144);
+}
+
+.controls button:hover {
+    opacity: 0.8;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+  
+li {
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 20px;
+}
+
+.controls button{
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
